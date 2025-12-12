@@ -5,7 +5,7 @@ import { ProjectCard } from './components/ProjectCard';
 function App() {
   return (
     <div className="container">
-      <h1 className="page-title">Projects</h1>
+      <h1 className="page-title">项目</h1>
       <div className="grid">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
