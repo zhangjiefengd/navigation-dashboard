@@ -267,3 +267,11 @@ body {
 .premium-card:nth-child(3) {
   animation-delay: 0.3s;
 }
+
+/* Description */
+.project-description {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-weight: 400;
+}

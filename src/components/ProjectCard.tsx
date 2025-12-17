@@ -35,6 +35,12 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         </div>
       </div>
 
+      <div className="card-content">
+        <p className="project-description">
+          {project.description}
+        </p>
+      </div>
+
     </div>
   );
 };

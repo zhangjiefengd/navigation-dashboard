@@ -13,30 +13,30 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 'markdown-nice',
-    name: 'markdown-nice',
+    name: 'Markdown Nice 排版工具',
     url: 'https://md-wechat.weifeng522.cn',
     github: 'zhangjiefengd/markdown-nice',
-    description: 'feat: user customization updates',
+    description: '一款支持自定义样式的微信公众号 Markdown 编辑器，让排版更简单。',
     lastUpdate: '9h ago',
     branch: 'master',
     status: 'success'
   },
   {
     id: 'earth-online',
-    name: 'earth-online',
+    name: 'Earth Online 地球在线',
     url: 'https://earth-online.weifeng522.cn',
     github: 'zhangjiefengd/earth-online',
-    description: 'fix: adjust rewrites for client subdirectory structure',
+    description: '实时地球在线查看工具，提供全球气象、海洋流场等数据的可视化展示。',
     lastUpdate: '5h ago',
     branch: 'master',
-    status: 'warning' // Icon looks like "!" or similar, let's treat as warning or just different
+    status: 'warning'
   },
   {
     id: 'multi-image-cropper',
-    name: 'multi-image-cropper',
+    name: '多图裁剪工具',
     url: 'https://multi-image-cropper.weifeng522.cn',
     github: 'zhangjiefengd/multi-image-cropper',
-    description: '配置修正后触发部署',
+    description: '高效的批量图片裁剪工具，支持自动识别与手动调整，提升图片处理效率。',
     lastUpdate: '6h ago',
     branch: 'master',
     status: 'success'
