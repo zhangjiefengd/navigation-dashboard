@@ -1,5 +1,5 @@
 import React from 'react';
-import { Globe, Github, GitBranch, Clock, Activity, AlertCircle } from 'lucide-react';
+import { Globe } from 'lucide-react';
 import type { Project } from '../data/projects';
 
 interface ProjectCardProps {
