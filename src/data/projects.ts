@@ -40,5 +40,15 @@ export const projects: Project[] = [
     lastUpdate: '6h ago',
     branch: 'master',
     status: 'success'
+  },
+  {
+    id: 'wechat-article-exporter',
+    name: '公众号管理',
+    url: 'https://data.weifeng522.cn',
+    github: 'zhangjiefengd/wechat-article-exporter',
+    description: '微信公众号文章导出与管理工具，支持批量导出、数据分析等功能。',
+    lastUpdate: '1h ago',
+    branch: 'master',
+    status: 'success'
   }
 ];
